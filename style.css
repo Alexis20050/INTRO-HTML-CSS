@@ -1,0 +1,35 @@
+/* Body styling */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styling */
+  .container {
+    background: white;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+  }
+  
+  /* Link styling */
+  a {
+    color: #ff3907;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
