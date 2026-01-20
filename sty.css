@@ -1,39 +1,5 @@
-/* External CSS file - style.css */
-
-/* Reset margins for all elements */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/* Style for paragraphs */
-p {
-    line-height: 1.6;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-/* Social button hover effects */
-.social-button:hover {
-    opacity: 0.9;
-    transform: translateY(-2px);
-    transition: all 0.3s ease;
-}
-
-/* Responsive design for smaller screens */
-@media (max-width: 600px) {
-    .main-box {
-        margin: 10px;
-        padding: 15px;
-    }
-    
-    h1 {
-        font-size: 28px !important;
-    }
-    
-    .social-button {
-        display: block !important;
-        margin: 10px auto !important;
-        width: 80%;
-    }
-}
+/* External CSS */
+nav a:hover { color: #3498db; }
+.skill:hover { transform: scale(1.1); }
+.fa-facebook:hover { color: #0d5cb6; }
+.fa-github:hover { color: #000; }
